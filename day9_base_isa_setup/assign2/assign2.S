@@ -4,16 +4,17 @@
 #include "test_macros.h"
 
 RVTEST_RV64U
-RVTEST_CODE_BEGIN
+RVTEST_CODE_BEGINgit
 
     # ---- your code here -------------------------------------------------
     # Example: compute 3 + 4. Replace with your own instructions.
-    li   t0, 3
-    li   t1, 4
+dv:
+    li   t0, 299
+    li   t1, 399
     add  t2, t0, t1              # your result in t2
 
     # ---- self-check: PASS if t2 == expected -----------------------------
-    li   t3, 7                   # TODO: set the value you expect
+    li   t3, 698                   # TODO: set the value you expect
     bne  t2, t3, fail
     # ---------------------------------------------------------------------
 
