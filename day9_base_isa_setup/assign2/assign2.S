@@ -4,7 +4,7 @@
 #include "test_macros.h"
 
 RVTEST_RV64U
-RVTEST_CODE_BEGINgit
+RVTEST_CODE_BEGIN
 
     # ---- your code here -------------------------------------------------
     # Example: compute 3 + 4. Replace with your own instructions.
