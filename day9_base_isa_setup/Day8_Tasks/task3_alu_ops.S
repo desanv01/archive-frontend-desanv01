@@ -1,4 +1,5 @@
 # Day 8 Task 3 - ALU ops, shifts, compare
+Answers :
 # Q1: 10110100 AND 11110000 = 10110000 = 0xb0.
 # Q2: sra -8,1 gives -4. srl -8,1 shifts in zeroes and gives 0x7ffffffffffffffc on RV64.
 # Q3: signed: -1 < 1, so slt gives 1. unsigned: 0xffffffffffffffff > 1, so sltu gives 0.
