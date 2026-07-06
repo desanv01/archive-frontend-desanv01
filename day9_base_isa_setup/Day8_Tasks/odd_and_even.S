@@ -9,7 +9,6 @@ RVTEST_CODE_BEGIN
 
     li   t0, 66
 
-    # Check bit 0.
     # If bit 0 is 0, number is even.if bit 0 is 1, number is odd.
     andi t1, t0, 1
 
