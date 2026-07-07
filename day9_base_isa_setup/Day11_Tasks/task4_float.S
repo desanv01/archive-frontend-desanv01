@@ -1,4 +1,5 @@
 # Day 11 Task 4 - Basic floating-point operations
+Answers :
 # Q1: IEEE 754 double 1.0 is 0x3ff0000000000000.
 # Q2: 1.0 + 2.0 with FADD.D gives 3.0.
 # Q3: FP divide by zero produces infinity and sets the DZ flag in fflags/fcsr; it does not trap like integer code might.
